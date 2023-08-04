@@ -19,6 +19,10 @@ app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);
 });
 
+app.get('/', (req, res) => {
+  res.send('Hey this is my API running 🥳')
+})
+
 app.use(
   cors({
     origin: ["http://localhost:5173"],
