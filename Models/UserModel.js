@@ -21,13 +21,15 @@ const userSchema = new mongoose.Schema({
   },
   // New sections for the portfolio website
 
-
-
   about_desc: {
     type: String,
     default: "",
   },
   tagline: {
+    type: String,
+    default: "",
+  },
+  logo: {
     type: String,
     default: "",
   },
