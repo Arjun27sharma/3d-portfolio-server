@@ -11,6 +11,7 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: [true, "Your username is required"],
   },
+  // skfjsdl
   password: {
     type: String,
     required: [true, "Your password is required"],
